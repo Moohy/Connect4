@@ -1,0 +1,204 @@
+header {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-around;
+}
+
+#logo p {
+  text-transform: uppercase;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+#menu p a {
+  text-decoration: none;
+  text-transform: capitalize;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 100;
+  letter-spacing: 2px;
+  color: gray;
+  margin-right: 30px;
+}
+
+#menu p a:hover {
+  color: black;
+}
+
+#grid {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 45vw;
+  height: 45vw;
+  background-color: #8dbfcc;
+  margin: auto;
+  border-radius: 60px;
+  z-index: 2;
+}
+
+[id*="container-"] {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  max-width: 20%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.circle {
+  width: 6vw;
+  height: 6vw;
+  border-radius: 50%;
+  background-color: rgb(238, 237, 237);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+#start-game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.02);
+}
+
+[class*="835144"] {
+  background-color: #835144;
+}
+
+[class*="445f83"] {
+  background-color: #445f83;
+}
+
+#users {
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+}
+
+#player-name-color {
+  display: flex;
+  flex-direction: row;
+}
+
+#users input {
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  width: 250px;
+  height: 20px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+#setting {
+  width: 100%;
+  height: 15vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#start-game-button button {
+  border: none;
+  width: 100%;
+  border: none;
+  background-color: rgb(133, 185, 207);
+  color: rgb(255, 255, 255);
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 40px;
+  border-radius: 30px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+#start-game-button button:hover {
+  background-color: rgb(166, 207, 224);
+}
+
+#grid-size {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#grid-size-title {
+  text-decoration: none;
+  text-transform: capitalize;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 100;
+  letter-spacing: 2px;
+  color: gray;
+}
+
+#game-screen {
+  display: flex;
+  justify-content: center;
+}
+
+.user-color {
+  border-radius: 50%;
+  border: 0.5px solid black;
+  height: 20px;
+  width: 20px;
+  margin-top: 26px;
+}
+
+#game-screen p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 100;
+  font-size: 24px;
+  text-transform: uppercase;
+  margin-right: 10px;
+}
+
+[id$="-info"] {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 25%;
+}
+
+#control {
+  display: flex;
+  justify-content: center;
+}
+
+#control button {
+  border: none;
+  width: 100%;
+  border: none;
+  background-color: rgb(105, 180, 142);
+  color: rgb(255, 255, 255);
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 40px;
+  border-radius: 30px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+#control button:hover {
+  background-color: rgb(166, 224, 180);
+}
+
+.onHover {
+  background-color: rgb(168, 219, 221);
+}
+
+#winner {
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
